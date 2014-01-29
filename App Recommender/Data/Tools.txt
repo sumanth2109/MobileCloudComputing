@@ -1,0 +1,25 @@
+ROM Manager, 4.5, 35162, 23147, 3407, 944, 501, 1975, Not detecting updates It's not detecting updates either automatically or manually When I click on Check for ROM updates it tells me no ROM updates are available, Works for updating CWM recovery The ROM download feature is slow downloading ROMs compared to other services, After you pay for  it constantly bugs you to rate So I am here now doing that It also advertises other products even after paying for
+
+Tasker, 4.6, 25124, 12003, 2067, 554, 255, 441, Fantastic programme however for me the issue like lock screen and turning GPS on and off which requires the plug ins and rooting due to the security of the operating system, Tasker has a steep learning curve look up how-tos on YouTube it WILL be worth your time Recommended for lovers of Smart Actions, Great app love it Takes automation to next level. This is what makes android so cool
+
+Smart Tools, 4.5, 81017, 21603, 8110, 1440, 337, 763,  A great collection of tools You will be limited in accuracy range and capability by your specific device, but still very useful, Great app excellent support I strongly recommend this app very usable with myriads of useful tools, Good Would be better if the light could turn on with a clap or two Then it would be good as a night light or to extend on-time when not holding it
+
+BetterBatteryStats, 4.5, 6938, 2574, 604, 141, 71, 200, Perfect app For those who are whining about root just buzz off This is a perfect app with no issues and a great dev, Now Useless If it doesn't work on KitKat then it's quite useless I'm not rooting my phone and losing the warranty Root is essential for so many good things and you can always unroot if you need to The only reason not to is lack of knowledge those people should just stick with what comes with the phone and be happy, Last update just keeps crashing upon opening even after clearing user data
+
+Alarm Clock Xtreme, 4.7, 34551, 8013, 1286, 181, 73, 176,  The built in alarm clock in Android 4.x can be very difficult to comprehend if you are just waking up and not thinking straight, Every imaginable feature you can think up and way more least of which being super reliable I'm a difficult sleeper and after awhile get used to alarms Typically I'd buy 2 or 3 clocks a year, It simply works I use the app for its basic functions I sleep deeply so multiple alarms with the math problem dismiss option is perfect Its easy to use customizable and no glitches it just work
+
+Google Translate, 4.6, 478729, 424862, 96042, 31239, 7652, 13710,  I used the pinyin translation as i don't read characters This has been removed from the 1st screen, This was good until the latest update Now it keeps crashing every time I try to use it When it gets fixed I'll change the review but it's a bit of an inconvenience for it not to work now, this update has spoiled this app. there is now no conversation mode and the new interface is crap
+
+Adobe AIR, 4.4, 359823, 162528, 34887, 18333, 5118, 13660, After downloading Adore Air my back hair has disappeared and I look 10 years younger I am just blown away with the results My skin is tighter and I can say goodbye to Botox I feel like a new man, Ever since I downloaded this app single girls from my area want to date me Thank you so much adobe, ever since the update i feel this app has changed it use to do nothing now it does an even better nothing but still i think you can improve on the nothingness so 4 stars for now
+
+Google Keyboard, 4.1, 55014, 17614, 4597, 2457, 1447, 2853,  I'm used to the swype keyboard and it's a little bit more accurate with general typing than this one Also swype has a select all copy and cut feature which is just awesome However despite swype's massive head start google's keyboard gets better and better with each update, So much faster than other slide keyboard apps and I think I've tried then all Seems more accurate too, Only thing I miss is the swipe backspace to delete a whole word from touch pal Thanks for putting back more off the the punctuation options on the period key
+
+Emoji Android to iphone, 3.2, 22244, 1860, 309, 385, 218, 1518, its bad cause it only shows you chinese letters and you cant even see the emoji's that other sent you Its just blank and the ones you send are chinese letters That needs to change, GREAT APP EVERYONE who is giving this app bad reviews needs to read the description first You are not able to see the emojis you type but the person with an iphone can case closed, This is a great app but I see all these reviews of dumbasses who can't even read a discription
+
+Flash Alerts, 4.4, 14608, 8227, 1199, 676, 255, 951, doesn't work the test works but it never works when I receive a text or call, Very helpful works perfectly but only problem is if u dont want to pick up a call and u intentionally silince the ringer for that particular call flash will continue which I dont like Please solve this problem and I will give it 5 star, It works Pretty good with my incoming calls it's a delay sometimes but I does not flash for my text notification Once it starts to work for my text I can rate it 5 star please fix
+
+
+
+
+
+

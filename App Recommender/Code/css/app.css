@@ -1,0 +1,40 @@
+#apps{
+margin-top:40px;
+
+box-shadow: rgb(128, 128, 128) 1px 1px 5px, rgb(128, 128, 128) -1px 1px 5px;
+}
+#recomend{
+
+}
+#main{
+width:900px;
+background:white;
+margin:0px auto;
+padding: 30px 20px;
+
+box-shadow: rgb(128, 128, 128) 1px 1px 5px, rgb(128, 128, 128) -1px 1px 5px;
+}
+h1,h2,h3{
+text-align:center;
+font-family:arial;
+}
+#head{
+background:#fe5;
+padding-top:10px;
+
+}
+#apptab {
+height:200px;
+margin:5px;
+border-radius:5px;
+box-shadow: rgb(128, 128, 128) 1px 1px 5px, rgb(128, 128, 128) -1px 1px 5px;
+}
+#apphead{
+background-color:black;
+color:white;
+padding:8px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+text-align:center;
+font-weight:bold;
+}

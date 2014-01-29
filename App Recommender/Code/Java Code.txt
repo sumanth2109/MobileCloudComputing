@@ -1,0 +1,225 @@
+package Test;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String args[]) throws IOException {
+        List<String> column1 = new ArrayList<String>();
+        List<String> column2 = new ArrayList<String>();
+        List<String> column3 = new ArrayList<String>();
+        List<String> column4 = new ArrayList<String>();
+        List<String> column5 = new ArrayList<String>();
+        List<String> column6 = new ArrayList<String>();
+        List<String> column7 = new ArrayList<String>();
+        List<String> column8 = new ArrayList<String>();
+        List<String> column9 = new ArrayList<String>();
+        
+        List<String> column10 = new ArrayList<String>();
+        List<String> column11 = new ArrayList<String>();
+       
+        
+  
+    //reading file line by line in Java using BufferedReader       
+    FileInputStream fis = null;
+    BufferedReader reader = null;
+    BufferedReader in = null; 
+
+BufferedWriter out = null; 
+  
+    try {
+      
+        
+
+    
+   
+    File f = new File("hdfs:\\home\\idcuser\\HealthOutput.txt");
+    FileOutputStream fos = new FileOutputStream(f);
+
+    PrintWriter pw = new PrintWriter(fos,true);
+        
+        // String tokens[];
+        //System.out.println("Reading File line by line using BufferedReader");
+     //BufferedReader reader;
+        reader = new BufferedReader(new FileReader("hdfs:\\home\\idcuser\\Health.txt"));
+      
+        String line = reader.readLine();
+        
+        while(line != null){
+            int count = 0;
+            String tokens[] = line.split(",");
+            column1.add(tokens[count]); ++count;
+            column2.add(tokens[count]); ++count;
+            column3.add(tokens[count]); ++count;
+            column4.add(tokens[count]); ++count;
+            column5.add(tokens[count]); ++count;
+            column6.add(tokens[count]); ++count;
+            column7.add(tokens[count]); ++count;
+            column8.add(tokens[count]); ++count;
+            column9.add(tokens[count]); ++count;
+            column10.add(tokens[count]); ++count;
+            column11.add(tokens[count]); ++count;
+            
+            //System.out.println(line);
+            line = reader.readLine();
+        }
+       
+        Float[] b = new Float[100];
+        Float[] c = new Float[100];
+        for(int i=0; i<column2.size(); i++){    
+            Float a = Float.valueOf(column2.get(i));
+            
+            b[i]=a;
+             c[i]=a;
+            //System.out.println(b[i]);
+        }
+        int[] r = new int[100];
+        for(int i=0; i<column3.size(); i++){    
+            int a = Integer.valueOf(column3.get(i));
+            
+            r[i]=a;
+            //System.out.println(r[i]);
+            
+
+   }
+        float large = b[0]; int large1 = r[0];
+for (int j = 1; j < b.length; j++) {
+    if(b[j]!=null && b[j] > large && r[j] > large1){
+        large = b[j];
+        large1 = r[j];
+    }
+}
+/*for(int k=0;k < b.length;k++){
+    if(b[k]!=null && b[k] == large && r[k] == large1){
+        System.out.println(column1.get(k)+" "+column2.get(k)+" "+column3.get(k)+" "+column4.get(k)+" "+column5.get(k)+" "+column6.get(k)+" "+column7.get(k)+" "+column8.get(k)+" "+column9.get(k));
+        
+        pw.println(column1.get(k) +" "+column2.get(k)+" "+column3.get(k)+" "+column4.get(k)+" "+column5.get(k)+" "+column6.get(k)+" "+column7.get(k)+" "+column8.get(k)+" "+column9.get(k));
+        
+
+   
+    }
+    
+}*/
+
+float temp;
+int temp1;
+
+for (int m=0; m < 9; m++) {
+    for (int n=m+1;n < 10; n++) {
+        if(b[m]!=null && b[n]!=null && b[m] != b[n] && b[m] < b[n]){
+temp =b[m];
+b[m]=b[n];
+b[n]=temp;
+
+temp1 =r[m];
+r[m]=r[n];
+r[n]=temp1;
+
+        
+Collections.swap(column1, m, n);
+Collections.swap(column2, m, n);
+Collections.swap(column3, m, n);
+Collections.swap(column4, m, n);
+Collections.swap(column5, m, n);
+Collections.swap(column6, m, n);
+Collections.swap(column7, m, n);
+Collections.swap(column8, m, n);
+Collections.swap(column9, m, n);
+Collections.swap(column10, m, n);
+Collections.swap(column11, m, n);
+}
+        else if(b[m]!=null && b[n]!=null && b[m] <= (b[n]) && r[m] < r[n]){
+temp =b[m];
+b[m]=b[n];
+b[n]=temp;
+
+temp1 =r[m];
+r[m]=r[n];
+r[n]=temp1;
+
+        
+Collections.swap(column1, m, n);
+Collections.swap(column2, m, n);
+Collections.swap(column3, m, n);
+Collections.swap(column4, m, n);
+Collections.swap(column5, m, n);
+Collections.swap(column6, m, n);
+Collections.swap(column7, m, n);
+Collections.swap(column8, m, n);
+Collections.swap(column9, m, n);
+Collections.swap(column10, m, n);
+Collections.swap(column11, m, n);
+
+
+            
+            
+        }
+        
+        
+        
+        
+    }
+}
+
+
+for(int k=0;k<c.length;k++){
+    if(c[k]!=null){
+    System.out.println(column1.get(k)+","+column2.get(k)+","+column3.get(k)+","+column4.get(k)+","+column5.get(k)+","+column6.get(k)+","+column7.get(k)+","+column8.get(k)+","+column9.get(k)+","+column10.get(k)+","+column11.get(k));
+    
+    
+    pw.println(column1.get(k)+","+column2.get(k)+","+column3.get(k)+","+column4.get(k)+","+column5.get(k)+","+column6.get(k)+","+column7.get(k)+","+column8.get(k)+","+column9.get(k)+","+column10.get(k)+","+column11.get(k));
+    
+    }
+}
+
+   pw.flush();  
+    fos.close();
+
+    pw.close();
+/* mainloop: 
+for(int q = 0;q < c.length; q++){
+    subloop: for(int s = 0;s < b.length; s++){
+                 if(c[q]!=null && b[s]!=null && c[q] == b[s]){
+                     System.out.println(c[q]+" "+q);
+                      
+                 }
+                
+             }
+    
+}*/
+
+
+
+
+    }catch (FileNotFoundException ex) {
+        Logger.getLogger(Test.class.getName()).log(Level.SEVERE, null, ex);
+    } catch (IOException ex) {
+        Logger.getLogger(Test.class.getName()).log(Level.SEVERE, null, ex);
+      
+    } finally {
+         try {
+            reader.close();
+           
+        } catch (IOException ex) {
+            Logger.getLogger(Test.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+}
+}
+
